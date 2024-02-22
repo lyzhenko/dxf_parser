@@ -1,6 +1,6 @@
 import ezdxf
 
-dxf = ezdxf.readfile('f.dxf')
+dxf = ezdxf.readfile('data/f.dxf')
 
 model = dxf.modelspace()
 for e in model:
